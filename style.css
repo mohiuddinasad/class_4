@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-bar{
+    background: #611b23;
+    color: white;
+    width: 25%;
+    height: 200vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.contact h2{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: px;
+    text-decoration: underline;
+    
+}
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: unset;
+}
+.skill h2{
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.right-bar{
+  width: 70%;
+  padding: 30px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.right-bar h3{
+    background-color: #a5a4a4;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.experience h3{
+    background-color: white;
+    color: darkblue;
+}
+.education h3{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: darkblue;
+}
+.education h2{
+    background-color: #a5a4a4;
+}
+.education li{
+    font-style: italic;
+    font: weight 100px; ;
+    font-family: 'Times New Roman', Times, serif;
+}
